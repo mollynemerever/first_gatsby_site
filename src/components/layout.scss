@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0;
-
+  background-color: #d1d1d1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -47,6 +47,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: yellow;
 }
 abbr[title] {
   border-bottom: none;
@@ -86,7 +87,7 @@ sup {
   top: -0.5em;
 }
 img {
-  border-style: none;
+  border-radius: 8px;
 }
 svg:not(:root) {
   overflow: hidden;
