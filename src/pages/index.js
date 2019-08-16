@@ -17,7 +17,9 @@ const IndexPage = () => (
       out of messy, noisy data. Intensely curious leader and team player with
       experience in healthcare, research, coaching, and startups.
     </p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-2/">Portfolio</Link>
+    <br />
+    <Link to="/page-3/">Contact</Link>
   </Layout>
 )
 
