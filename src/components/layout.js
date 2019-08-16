@@ -36,9 +36,12 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          Site Designed by{" "}
+          <a href="https://mollynemerever.github.io/"> Molly Nemerever </a>
+          <br />
+          {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          Gatsby
         </footer>
       </div>
     </>
