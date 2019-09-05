@@ -34,10 +34,7 @@ const Header = ({ siteTitle }) => (
           href="https://drive.google.com/file/d/0B1cW-VByifadUTVPU2J0d3hoRWFPa1luakZVUTU5Z3IyZXRV/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            color: `#85B445`,
-            textDecoration: `none`,
-          }}
+          className="asset"
         >
           Resume
         </a>
@@ -46,11 +43,7 @@ const Header = ({ siteTitle }) => (
           href="https://www.linkedin.com/in/d-v-dlee/"
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            color: `#85B445`,
-            textDecoration: `none`,
-            padding: `1rem`,
-          }}
+          className="asset"
         >
           LinkedIn
         </a>
@@ -58,13 +51,11 @@ const Header = ({ siteTitle }) => (
           href="https://github.com/d-v-dlee"
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            color: `#85B445`,
-            textDecoration: `none`,
-            hover: {
-              color: `#AAB6A2`,
-            },
-          }}
+          className="asset"
+          // style={{
+          //   color: `#85B445`,
+          //   textDecoration: `none`,
+          // }}
         >
           GitHub
         </a>

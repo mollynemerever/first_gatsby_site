@@ -40,15 +40,21 @@ progress {
 template {
   display: none;
 }
+
+a.asset {
+  color: #85b445;
+  padding-right: 1rem;
+}
 a {
   background-color: transparent;
   color: rgb(38, 41, 46);
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: rgb(133, 180, 69);
+  color: #ffffff;
 }
 abbr[title] {
   border-bottom: none;
