@@ -9,6 +9,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+form {
+  margin: 2%;
+}
+
+#contact-form {
+  border-width: thin;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+}
 article,
 aside,
 details,
@@ -452,16 +464,16 @@ blockquote {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-form {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+// form {
+//   margin-left: 0;
+//   margin-right: 0;
+//   margin-top: 0;
+//   padding-bottom: 0;
+//   padding-left: 0;
+//   padding-right: 0;
+//   padding-top: 0;
+//   margin-bottom: 1.45rem;
+// }
 noscript {
   margin-left: 0;
   margin-right: 0;
