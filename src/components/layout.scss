@@ -10,14 +10,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-form {
-  margin: 2%;
-}
-
 table,
 th,
 td {
   border: 1px solid;
+}
+
+form {
+  margin: 2%;
+}
+
+label.input {
+  padding-bottom: 2%;
 }
 
 #contact-form {
@@ -132,8 +136,7 @@ hr {
   height: 0;
   overflow: visible;
 }
-button,
-input,
+
 optgroup,
 select,
 textarea {
@@ -143,8 +146,7 @@ textarea {
 optgroup {
   font-weight: 700;
 }
-button,
-input {
+button {
   overflow: visible;
 }
 button,
