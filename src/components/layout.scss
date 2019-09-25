@@ -16,12 +16,26 @@ td {
   border: 1px solid;
 }
 
-form {
-  margin: 2%;
+button {
+  background-color: #87c533;
+
+  height: 30px;
 }
 
-label.input {
-  padding-bottom: 2%;
+form {
+  margin: 2%;
+  width: 30%;
+}
+
+// label.input {
+//   margin-bottom: 2%;
+// }
+
+input {
+  // height: 30%;
+  margin-bottom: 2%;
+  width: 100%;
+  font-size: 18px;
 }
 
 #contact-form {
