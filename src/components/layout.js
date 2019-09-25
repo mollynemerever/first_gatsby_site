@@ -35,15 +35,15 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          Site Designed by{" "}
-          <a href="https://mollynemerever.github.io/"> Molly Nemerever </a>
-          <br />
-          {new Date().getFullYear()}, Built with
-          {` `}
-          Gatsby
-        </footer>
       </div>
+      <footer>
+        Site Designed by{" "}
+        <a href="https://mollynemerever.github.io/"> Molly Nemerever </a>
+        <br />
+        {new Date().getFullYear()}, Built with
+        {` `}
+        Gatsby
+      </footer>
     </>
   )
 }
