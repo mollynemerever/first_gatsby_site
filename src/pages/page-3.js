@@ -40,7 +40,7 @@ const ThirdPage = () => (
         <br />
         <button type="submit" value="Send">
           {" "}
-          Send{" "}
+          SUBMIT{" "}
         </button>
       </form>
     </div>
